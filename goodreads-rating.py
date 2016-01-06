@@ -15,7 +15,7 @@ for root, dirs, files in os.walk('/home/shyam/Desktop/working-project/books'):
              books.append(( title))
 
 for book in books:
-    url="http://www.goodreads.com/book/title.xml?key=&title=" + book
+    url="http://www.goodreads.com/book/title.xml?key=goodreads_key&title=" + book
     url = url.replace(' ', '%20')
     print "Fetching details for",book
     try:
