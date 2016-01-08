@@ -5,7 +5,7 @@ import urllib2
 import csv
 
 # goodreads_key=
-# ebooks_folder=
+# ebooks_folder= need to pass as args
 
 books = []
 for root, dirs, files in os.walk('/home/shyam/Desktop/working-project/books'):
